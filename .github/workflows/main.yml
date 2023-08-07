@@ -21,4 +21,4 @@ jobs:
       with:
         tags: ghcr.io/mkapra/webhook-servercow:latest
         file: Dockerfile
-        push: ${{ github.ref == 'refs/heads/main' }}
+        push: ${{ github.ref == 'refs/heads/master' }}
